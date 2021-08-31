@@ -10,7 +10,7 @@ import Props2 from './Props2';
 import Props3 from './Props3';
 import Section from './Section';
 import Condition from './Condition';
-import Condition2 from '.Condition2';
+import Condition2 from './Condition2';
 import Condition3 from './Condition3';
 
 
