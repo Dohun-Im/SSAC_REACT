@@ -1,11 +1,18 @@
+import React from "react";
+
 function Hello(){
     return(
-        <sdection>
+        <React.Fragment>
+            <section>
             Hello React in Hello Component
-        </sdection>
+            </section>
+            <section>
+            Hello React in Hello Component
+            </section>
+        </React.Fragment>
+        
     );
 
 }
-
 
 export default Hello;
