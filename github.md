@@ -49,3 +49,11 @@
 ### 구조 분해 할당
 
 ### Todo 마크업
+
+### Todo Component
+- header
+- main 
+    - todo-list
+        - todo-item
+    - status
+-footer
