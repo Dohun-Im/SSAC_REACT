@@ -27,6 +27,13 @@
 
 - 공식 문서 : https://ko.reactjs.org/
 
+### Localhost URL
+
+- 로컬서버에서 실행을 할때 사용할 수 있는 키워드 URL
+- localhost => IP 주소: 127.0.0.1
+- port - URL:port번호
+    - 하나의 물리 서버에서 여러개의 서버 SW를 실행할 수 있음
+
 ## React의 특징
 
 - Virtual DOM
@@ -56,4 +63,16 @@
     - todo-list
         - todo-item
     - status
--footer
+- footer
+
+### React에서 CSS를 작성/ 사용하는 방식
+
+- App.css에 전체 css를 구성하고 전역으로 사용하는 방식
+- Module css 방식 : css를 하나로 구성하지 않고 component 별로 구성
+    - component 와 css 파일이 분리되어 잇음
+    - 작성 방법
+        - 폰트 설정, reset css 등은 App.css 에 전역으로 사용할 수 있게 함
+        - 하나의 요소를 선택해서 css를 적용하는 경우 module css를 활용함
+- styled-component : 스타일링 된 컴포넌트 ==> component 별로 css를 구성
+    - 인라인 방식처럼 사용 => component파일에 css, component contents 같이 작성
+    - 렌더링은 Internal 방식으로 됨

@@ -1,0 +1,16 @@
+.footer{
+	background: #0d0d0d;
+	position:absolute;
+	bottom:0;
+	/* position:absolute, position:fixed; => width는 자식요*/
+	width:100%;
+}
+
+.section{
+	max-width:540px;
+	margin:0 auto;
+	padding:30px 20px;
+}
+.section>div{
+	margin:20px 0;
+}

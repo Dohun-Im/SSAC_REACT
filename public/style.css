@@ -119,6 +119,9 @@ mark{
 	outline:none;
 	border-bottom: 1px solid #999999;
 }
+.main{
+	padding-top:30px;
+}
 .section{
 	max-width:540px;
 	margin:0 auto;
