@@ -1,4 +1,4 @@
-function ListItem(value) {
+function ListItem({ value }) {
   return (
     <li>
       {value.name} : {value.color}
@@ -6,7 +6,7 @@ function ListItem(value) {
   );
 }
 
-function HookArray(carArray) {
+function HookArray({ carArray }) {
   return (
     <ul>
       {carArray.map((car) => {

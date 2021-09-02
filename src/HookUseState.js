@@ -3,9 +3,7 @@ import { useState, useRef } from 'react';
 function HookUseState() {
   const inputDom = useRef();
 
-  const [value, setValue] = useState(10);
-
-  console.log(value);
+  const [value, setValue] = useState(0);
 
   const add = () => {
     setValue(value + 1);

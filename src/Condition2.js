@@ -2,7 +2,7 @@ import Hello from './Hello';
 import Hello2 from './Hello2';
 
 function Condition2() {
-  let isLogin = false;
+  let isLogin = true;
 
   return (
     <>

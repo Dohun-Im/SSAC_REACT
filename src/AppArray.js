@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 import HookArray from './HookArray';
 import HookArrayCreate from './HookArrayCreate';
@@ -8,7 +8,7 @@ function AppArray() {
     {
       id: 1,
       name: 'Fiat',
-      color: 'whhite',
+      color: 'white',
     },
     {
       id: 2,
@@ -17,8 +17,8 @@ function AppArray() {
     },
     {
       id: 3,
-      name: 'Hyndai',
-      color: 'gray',
+      name: 'Hyundai',
+      color: 'grey',
     },
   ]);
 
@@ -29,24 +29,23 @@ function AppArray() {
 
   const { name, color } = carInput;
 
-  // useRef(): 상태값 관리
-  const nextId = useRef(4);
+  const changeText = (e) => {
+    const { property, value } = e.target;
 
-  const onCreate = () => {
     setCarInput({
-      name: '',
-      color: '',
+      ...carInput,
+      [property]: value,
     });
   };
 
+  // userRef() : 상태값 관리
+  const nextId = useRef(4);
+
   return (
     <>
-      <HookArrayCreate name={name} color={color} onCreate={onCreate} />
+      <HookArrayCreate name={name} color={color} changeText={changeText} />
       <HookArray carArray={carArray} />
     </>
-
-    // 배열에 내용을 추가
-    // 배열에 내용을 제거
   );
 }
 

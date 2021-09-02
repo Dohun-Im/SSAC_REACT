@@ -1,10 +1,10 @@
-// 하나의 component 파일에 여러개 component 작성
+// 하나의 componet 파일에 여러개 component 작성
 // map 함수 사용
 
 function ListItem({ value }) {
   return (
     <li>
-      {value.name} = {value.color}
+      {value.name} - {value.color}
     </li>
   );
 }
@@ -14,7 +14,7 @@ function HookMap() {
     {
       id: 1,
       name: 'Fiat',
-      color: 'whhite',
+      color: 'white',
     },
     {
       id: 2,
@@ -23,8 +23,8 @@ function HookMap() {
     },
     {
       id: 3,
-      name: 'Hyndai',
-      color: 'gray',
+      name: 'Hyundai',
+      color: 'grey',
     },
   ];
 
