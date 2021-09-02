@@ -1,5 +1,5 @@
-//  ../ : 상위폴더
-//  ./ : 현재폴더 
+// ../ : 상위폴더
+// ./ : 현재폴더
 import './App.css';
 import TodoHeader from './component/TodoHeader';
 import TodoMain from './component/TodoMain';
@@ -8,8 +8,8 @@ import TodoItem from './component/TodoItem';
 import TodoStatus from './component/TodoStatus';
 import TodoFooter from './component/TodoFooter';
 
-function App(){
-  return(
+function App() {
+  return (
     <>
       <TodoHeader />
       <TodoMain>
