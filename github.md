@@ -56,6 +56,8 @@
 
 ### Todo 마크업
 
+https://dev.to/hariramjp777/todo-app-using-html-css-and-js-local-storage-design-html-and-css-1m0j
+
 ### Todo Component
 
 - header
@@ -69,7 +71,7 @@
 
 - App.css에 전체 css를 구성하고 전역으로 사용하는 방식
 - Module css 방식 : css를 하나로 구성하지 않고 component 별로 구성
-  - component 와 css 파일이 분리되어 잇음
+  - component 와 css 파일이 분리되어 있음
   - 작성 방법
     - 폰트 설정, reset css 등은 App.css 에 전역으로 사용할 수 있게 함
     - 하나의 요소를 선택해서 css를 적용하는 경우 module css를 활용함
